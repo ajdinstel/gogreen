@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for gogreen-bootstrap-webfiles" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="gogreen-bootstrap-webfiles" />
+      </profile>
+      <profile default="false" name="Annotation profile for gogreen-cms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="gogreen-cms" />
+      </profile>
+      <profile default="false" name="Annotation profile for gogreen-essentials" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="gogreen-essentials" />
+      </profile>
+      <profile default="false" name="Annotation profile for gogreen-site" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="gogreen-site" />
+      </profile>
+      <profile default="false" name="Annotation profile for gogreen-bootstrap-configuration" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="gogreen-bootstrap-configuration" />
+      </profile>
+      <profile default="false" name="Annotation profile for gogreen-bootstrap-content" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="gogreen-bootstrap-content" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gogreen" target="1.5" />
+      <module name="gogreen-bootstrap" target="1.5" />
+      <module name="gogreen-bootstrap-configuration" target="1.8" />
+      <module name="gogreen-bootstrap-content" target="1.8" />
+      <module name="gogreen-bootstrap-webfiles" target="1.8" />
+      <module name="gogreen-cms" target="1.8" />
+      <module name="gogreen-essentials" target="1.8" />
+      <module name="gogreen-site" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
